@@ -22,7 +22,23 @@ Above command will take you through a setup process by guiding you through the f
 
 3. Wait a bit for the installation process to complete. When you get a Success! message, you're good to move on to the next step!! 🎉
 
-## Step 3: Run locally
+## Step 3: To extract images from external links
+Add following in next.config.js file
+  images: {
+        domains: ['cdn.sanity.io'],
+  }
+
+After adding, next.config.js file
+
+/** @type {import('next').NextConfig} */
+const nextConfig = {
+    images: {
+        domains: ['cdn.sanity.io'],
+    },
+}
+module.exports = nextConfig
+
+## Step 4: Run locally
 
 npm run dev
 
