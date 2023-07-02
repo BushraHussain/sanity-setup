@@ -1,6 +1,8 @@
 
 ## Step 1: Create Next js app
 
+npx create-next-app
+
 ## Step 2: Install & setup sanity
 
 npm create sanity@latest -- --template clean --create-project "Sanity Project" --dataset production
