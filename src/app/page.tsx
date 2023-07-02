@@ -41,9 +41,9 @@ export default async function Home() {
   //console.log(data);
   //item.image.asset._ref
   return (
-    <div>
+    <div className='flex space-x-28'>
       {data.map((item)=>(
-        <div>
+        <div className='space-y-2'>
           <p> {item.title}</p>
           <p> {item.description}</p>
           <p> {item.price}</p>
