@@ -25,3 +25,6 @@ Above command will take you through a setup process by guiding you through the f
 ## Step 3: Run locally
 
 npm run dev
+
+## For details
+https://www.youtube.com/watch?v=3scmejwWaJQ
