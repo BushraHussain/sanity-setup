@@ -24,7 +24,7 @@ Above command will take you through a setup process by guiding you through the f
 
 ## Step 3: To extract images from external links
 
-1. Install Sanity image URL using npm i @sanity/image-url command
+1. Install Sanity image URL using `npm i @sanity/image-url` command
 2. Add following in next.config.js file of your project
 `  images: {
         domains: ['cdn.sanity.io'],
@@ -42,7 +42,7 @@ module.exports = nextConfig`
 
 ## Step 4: Run locally
 
-npm run dev
+`npm run dev`
 
 ## For details
 https://www.youtube.com/watch?v=3scmejwWaJQ
