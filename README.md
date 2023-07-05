@@ -5,7 +5,7 @@ npx create-next-app
 
 ## Step 2: Install & setup sanity
 
-npm create sanity@latest -- --template clean --create-project "Sanity Project" --dataset production
+`npm create sanity@latest -- --template clean --create-project "Sanity Project" --dataset production`
 
 Above command will take you through a setup process by guiding you through the following steps:
 
@@ -20,23 +20,25 @@ Above command will take you through a setup process by guiding you through the f
 + Select project template to use Clean project with no predefined schemas
 + Would you like to add the project ID and dataset to your .env file? Yes
 
-3. Wait a bit for the installation process to complete. When you get a Success! message, you're good to move on to the next step!! 🎉
+3. Wait a bit for the installation process to complete. When you get a Success! message, you're good to move on to the next step!! 
 
 ## Step 3: To extract images from external links
-Add following in next.config.js file
-  images: {
+
+1. Install Sanity image URL using npm i @sanity/image-url command
+2. Add following in next.config.js file of your project
+`  images: {
         domains: ['cdn.sanity.io'],
-  }
+  }`
 
 After adding, next.config.js file
 
-/** @type {import('next').NextConfig} */
+`/** @type {import('next').NextConfig} */
 const nextConfig = {
     images: {
         domains: ['cdn.sanity.io'],
     },
 }
-module.exports = nextConfig
+module.exports = nextConfig`
 
 ## Step 4: Run locally
 
